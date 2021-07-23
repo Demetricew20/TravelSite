@@ -59,12 +59,21 @@
 
 .recommendations__container {
   height: 45rem;
+  background-position: bottom;
+  background-size: cover;
 }
 
 .hawaii__container{
     background-image: url("/Assets/Images/hawaii.jpg");
-    background-position: bottom;
-    background-size: cover;
+}
+
+.greece__container{
+    background-image: url("/Assets/Images/greece.jpg");
+
+}
+
+.iceland__container{
+    background-image: url("/Assets/Images/iceland.jpg");
 }
 
 .recommendations__text {
