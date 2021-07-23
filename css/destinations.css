@@ -87,7 +87,10 @@
 /* RECOMMENDATIONS SECTION */
 
 .recommendations__container {
-  height: 18rem;
+  height: 40rem;
+  background-image: url("/Assets/Images/hawaii.jpg");
+  background-position: bottom;
+  background-size: cover;
 }
 
 .recommendations__text {
@@ -98,31 +101,44 @@
 }
 
 .card__group {
+  position: relative;
+  top: 7rem;
+  height: 25rem;
   display: flex;
   justify-content: center;
+
 }
 
 .card {
-  background-position: center;
-  background-size: cover;
-  width: 11rem;
-  height: 15rem;
   margin: 0 2rem 0 2rem;
+  width: 16rem;
   border-radius: 5px;
-  color: white;
-  transition: ease 1s;
+  background-color: white;
+  text-align: center;
 }
 
-.card > p {
-  position: relative;
-  left: 7.5rem;
-  top: 13.5rem;
+.card__title {
+  margin: 1rem 1rem 2rem 1rem;
+  border-bottom: 3px solid black;
+  font-size: 1.5rem;
   font-weight: bold;
+  
+}
+
+.card > ul {
+  list-style: none;
+}
+
+.card > ul > li {
+    margin: 10px 0 10px 0;
+    background-color: #faf4f4d7;
+    padding: 1.25rem ;
 }
 
 .card:hover {
   transform: scale(1.15);
   cursor: pointer;
+  opacity: .8;
 }
 
 .hawaii__card {
