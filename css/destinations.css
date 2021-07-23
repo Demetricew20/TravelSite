@@ -18,6 +18,10 @@
   color: #236076;
 }
 
+.navbar__left > p {
+    font-size: 1.25rem;
+}
+
 .navbar__right {
   position: absolute;
   right: 5%;
@@ -41,68 +45,40 @@
   color: black;
 }
 
-.navlinks > a:hover {
+.available__link:hover {
   padding-bottom: 0.25rem;
   border-bottom: 3px solid #db7a4e;
 }
 
-/* HEADER  */
-
-.header__container {
-  background-color: #efece8;
-  display: flex;
-  height: 25rem;
-  padding: 0 2.5rem 0 10rem;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header__paragraphTop {
-  margin-bottom: 2.5rem;
-  font-size: 2.5rem;
-  width: 30rem;
-  color: #236076;
-  font-weight: bolder;
-}
-
-.header__paragraphBottom {
-  margin-bottom: 2rem;
-  width: 35rem;
-}
-
-.header__left > button {
-  background-color: #db7a4e;
-  border-radius: 1rem;
-  padding: 5px 20px 5px 20px;
-  width: 8rem;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
-.header__image {
-  transform: scale(0.5);
+.current__link{
+    padding-bottom: 0.25rem;
+    border-bottom: 3px solid #236076;
 }
 
 /* RECOMMENDATIONS SECTION */
 
 .recommendations__container {
-  height: 40rem;
-  background-image: url("/Assets/Images/hawaii.jpg");
-  background-position: bottom;
-  background-size: cover;
+  height: 45rem;
+}
+
+.hawaii__container{
+    background-image: url("/Assets/Images/hawaii.jpg");
+    background-position: bottom;
+    background-size: cover;
 }
 
 .recommendations__text {
-  margin: 1.65rem 0 0rem 4rem;
-  color: #236076;
-  font-weight: bold;
-  font-size: 1.25rem;
+  position: relative;
+  left: 10rem;
+  top: 3rem;
+  color: white;
+  font-weight: bolder;
+  font-size: 5rem;
 }
 
 .card__group {
   position: relative;
-  top: 7rem;
+  top: 3rem;
   height: 25rem;
   display: flex;
   justify-content: center;
@@ -162,7 +138,7 @@
 
 .footer__container {
   height: 100%;
-  margin: 1rem 4rem 0.25rem 4rem;
+  margin: 0rem 4rem 0.25rem 4rem;
   display: flex;
   justify-content: center;
 }

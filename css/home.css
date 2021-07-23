@@ -14,8 +14,13 @@
 
 .navbar__left {
   margin-left: 7rem;
+  font-size: 2rem;
   font-weight: bolder;
   color: #236076;
+}
+
+.navbar__left > p {
+  font-size: 1.25rem;
 }
 
 .navbar__right {
@@ -41,9 +46,14 @@
   color: black;
 }
 
-.navlinks > a:hover {
+.available__link:hover {
   padding-bottom: 0.25rem;
   border-bottom: 3px solid #db7a4e;
+}
+
+.current__link{
+    padding-bottom: 0.25rem;
+    border-bottom: 3px solid #236076;
 }
 
 /* HEADER  */
