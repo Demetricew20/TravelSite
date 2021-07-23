@@ -69,11 +69,12 @@
 
 .greece__container{
     background-image: url("/Assets/Images/greece.jpg");
-
+    background-position: center;
 }
 
 .iceland__container{
     background-image: url("/Assets/Images/iceland.jpg");
+    background-position: center;
 }
 
 .recommendations__text {
