@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/home.css">
     <title>Travel Site Home</title>
 </head>
-<body>
+<body id="home">
     <!-- NAVBAR -->
     <nav class="navbar">
         <div class="navbar__left">
@@ -15,10 +18,10 @@
         </div>
         <div class="navbar__right">
             <ul>
-                <li>Home</li>
-                <li>Hawaii</li>
-                <li>Iceland</li>
-                <li>Greece</li>
+                <li class="navlinks"><a href="#home">Home</a></li>
+                <li class="navlinks"><a href="./pages/hawaii.html">Hawaii</a></li>
+                <li class="navlinks"><a href="./pages/iceland.html">Iceland</a></li>
+                <li class="navlinks"><a href="./pages/greece.html">Greece</a></li>
             </ul>
         </div>
     </nav>
@@ -32,6 +35,19 @@
         </div>
         <div class="header__right">
             <img src="./Assets/Images/hero.png" alt="Plane and Globe" class="header__image">
+        </div>
+    </div>
+
+    <!-- RECOMMENDATIONS SECTION -->
+    <div class="recommendations__container">
+        <div class="recommendations__text">
+            <p>Recommendations</p>
+        </div>
+        <div class="card__group">
+            <div class="hawaii__card card"><p>Hawaii</p></div>
+            <div class="iceland__card card"><p>Iceland</p></div>
+            <div class="greece__card card"><p>Greece</p></div>
+
         </div>
     </div>
 
