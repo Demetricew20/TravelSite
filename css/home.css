@@ -8,6 +8,7 @@ body {
   
 }
 
+/* NAVBAR */
 .navbar{
     display: flex;
     padding-top: 1.25rem;
@@ -30,4 +31,44 @@ body {
 .navbar__right > ul > li {
     display: inline;
     margin: 0 5px 0 5px;
+}
+
+/* HEADER  */
+
+.header__container{
+    background-color: #efece8;
+    display: flex;
+    height: 25rem;
+    padding: 0 2.5rem 0 10rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__left{
+    border: 1px solid red;
+}
+
+
+.header__paragraphTop{
+    margin-bottom: 2.5rem;
+    font-size: 2.50rem;
+    width: 30rem;
+}
+
+.header__paragraphBottom{
+    margin-bottom: 2rem;
+    width: 30rem;
+}
+
+.header__left > button {
+    background-color: #DB7A4E;
+    border-radius: 1rem;
+    padding: 2px;
+    width: 6.25rem;
+    border: none;
+    color: white;
+}
+
+.header__image{
+    transform: scale(.5);
 }
