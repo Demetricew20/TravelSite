@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+}
+
+.navbar{
+    display: flex;
+    padding-top: 1.25rem;
+    border: 1px solid red;
+}
+
+.navbar__left{
+    margin-left: 7rem;
+}
+
+.navbar__right{
+    position: absolute;
+    right: 5%;
+}
+
+.navbar__right > ul {
+    list-style: none;
+    
+}
+.navbar__right > ul > li {
+    display: inline;
+    margin: 0 5px 0 5px;
+}
