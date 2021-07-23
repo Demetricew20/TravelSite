@@ -112,6 +112,10 @@
   justify-content: center;
 }
 
+.card__group > a {
+  text-decoration: none;
+}
+
 .card {
   background-position: center;
   background-size: cover;

@@ -19,7 +19,7 @@
 }
 
 .navbar__left > p {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 .navbar__right {
@@ -50,9 +50,9 @@
   border-bottom: 3px solid #db7a4e;
 }
 
-.current__link{
-    padding-bottom: 0.25rem;
-    border-bottom: 3px solid #236076;
+.current__link {
+  padding-bottom: 0.25rem;
+  border-bottom: 3px solid #236076;
 }
 
 /* RECOMMENDATIONS SECTION */
@@ -63,18 +63,18 @@
   background-size: cover;
 }
 
-.hawaii__container{
-    background-image: url("/Assets/Images/hawaii.jpg");
+.hawaii__container {
+  background-image: url("/Assets/Images/hawaii.jpg");
 }
 
-.greece__container{
-    background-image: url("/Assets/Images/greece.jpg");
-    background-position: center;
+.greece__container {
+  background-image: url("/Assets/Images/greece.jpg");
+  background-position: center;
 }
 
-.iceland__container{
-    background-image: url("/Assets/Images/iceland.jpg");
-    background-position: center;
+.iceland__container {
+  background-image: url("/Assets/Images/iceland.jpg");
+  background-position: center;
 }
 
 .recommendations__text {
@@ -92,7 +92,6 @@
   height: 25rem;
   display: flex;
   justify-content: center;
-
 }
 
 .card {
@@ -108,7 +107,6 @@
   border-bottom: 3px solid black;
   font-size: 1.5rem;
   font-weight: bold;
-  
 }
 
 .card > ul {
@@ -116,15 +114,15 @@
 }
 
 .card > ul > li {
-    margin: 10px 0 10px 0;
-    background-color: #faf4f4d7;
-    padding: 1.25rem ;
+  margin: 10px 0 10px 0;
+  background-color: #faf4f4d7;
+  padding: 1.25rem;
 }
 
 .card:hover {
   transform: scale(1.15);
   cursor: pointer;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .hawaii__card {
