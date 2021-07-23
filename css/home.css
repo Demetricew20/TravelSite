@@ -2,138 +2,226 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* NAVBAR */
-.navbar{
-    display: flex;
-    padding-top: 1.25rem;
-    padding-bottom: .65rem;
+.navbar {
+  display: flex;
+  padding-top: 1.25rem;
+  padding-bottom: 0.65rem;
 }
 
-.navbar__left{
-    margin-left: 7rem;
-    font-weight: bolder;
-    color: #236076;
+.navbar__left {
+  margin-left: 7rem;
+  font-weight: bolder;
+  color: #236076;
 }
 
-.navbar__right{
-    position: absolute;
-    right: 5%;
+.navbar__right {
+  position: absolute;
+  right: 5%;
 }
 
 .navbar__right > ul {
-    list-style: none;
-    
+  list-style: none;
 }
 .navbar__right > ul > li {
-    display: inline;
-    margin: 0 5px 0 5px;
+  display: inline;
+  margin: 0 5px 0 5px;
 }
 
-.navlinks > a{
-    text-decoration: none;
-    cursor: pointer;
+.navlinks > a {
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.navlinks > a:link, .navlinks > a:visited{
-    color: black;
+.navlinks > a:link,
+.navlinks > a:visited {
+  color: black;
 }
 
-.navlinks > a:hover{
-    padding-bottom: .25rem;
-    border-bottom: 3px solid #DB7A4E;
+.navlinks > a:hover {
+  padding-bottom: 0.25rem;
+  border-bottom: 3px solid #db7a4e;
 }
 
 /* HEADER  */
 
-.header__container{
-    background-color: #efece8;
-    display: flex;
-    height: 25rem;
-    padding: 0 2.5rem 0 10rem;
-    align-items: center;
-    justify-content: space-between;
+.header__container {
+  background-color: #efece8;
+  display: flex;
+  height: 25rem;
+  padding: 0 2.5rem 0 10rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.header__paragraphTop{
-    margin-bottom: 2.5rem;
-    font-size: 2.50rem;
-    width: 30rem;
-    color: #236076;
-    font-weight: bolder;
+.header__paragraphTop {
+  margin-bottom: 2.5rem;
+  font-size: 2.5rem;
+  width: 30rem;
+  color: #236076;
+  font-weight: bolder;
 }
 
-.header__paragraphBottom{
-    margin-bottom: 2rem;
-    width: 35rem;
+.header__paragraphBottom {
+  margin-bottom: 2rem;
+  width: 35rem;
 }
 
 .header__left > button {
-    background-color: #DB7A4E;
-    border-radius: 1rem;
-    padding: 5px 20px 5px 20px;
-    width: 8rem;
-    border: none;
-    color: white;
-    cursor: pointer;
+  background-color: #db7a4e;
+  border-radius: 1rem;
+  padding: 5px 20px 5px 20px;
+  width: 8rem;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
 
-.header__image{
-    transform: scale(.5);
+.header__image {
+  transform: scale(0.5);
 }
 
 /* RECOMMENDATIONS SECTION */
 
-.recommendations__container{
-    border: 1px solid red;
-    height: 20rem;
+.recommendations__container {
+  height: 18rem;
 }
 
-.recommendations__text{
-    margin: 1.65rem 0 0rem 4rem;
-    color: #236076;
-    font-weight: bold;
-    font-size: 1.25rem;
+.recommendations__text {
+  margin: 1.65rem 0 0rem 4rem;
+  color: #236076;
+  font-weight: bold;
+  font-size: 1.25rem;
 }
 
-.card__group{
-    display: flex;
-    justify-content: center;
+.card__group {
+  display: flex;
+  justify-content: center;
 }
 
-.card{
-    background-position: center;
-    background-size: cover;
-    width: 11rem;
-    height: 15rem;
-    margin: 0 2rem 0 2rem;
-    border-radius: 5px;
-    color: white;
+.card {
+  background-position: center;
+  background-size: cover;
+  width: 11rem;
+  height: 15rem;
+  margin: 0 2rem 0 2rem;
+  border-radius: 5px;
+  color: white;
 }
 
 .card > p {
-    position: relative;
-    left: 7.5rem;
-    top: 13.50rem;
-    font-weight: bold;
-    
+  position: relative;
+  left: 7.5rem;
+  top: 13.5rem;
+  font-weight: bold;
 }
 
-.card:hover{
-    transform: scale(1.15);
-    cursor: pointer;
+.card:hover {
+  transform: scale(1.15);
+  cursor: pointer;
 }
 
-.hawaii__card{
-    background-image: url("/Assets/Images/hawaii.jpg");
+.hawaii__card {
+  background-image: url("/Assets/Images/hawaii.jpg");
 }
 
-.iceland__card{
-    background-image: url('/Assets/Images/iceland.jpg');
+.iceland__card {
+  background-image: url("/Assets/Images/iceland.jpg");
 }
 
-.greece__card{
-    background-image: url('/Assets//Images/greece.jpg');
+.greece__card {
+  background-image: url("/Assets//Images/greece.jpg");
+}
+
+/* FOOTER */
+
+.footer {
+  height: 9.25rem;
+  background-color: #efece8;
+}
+
+.footer__container {
+  height: 100%;
+  margin: 1rem 4rem 0.25rem 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.footer__content {
+  height: 100%;
+  width: 20%;
+  flex-direction: column;
+}
+
+.footer__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #236076;
+  margin-bottom: 10px;
+}
+
+.footer__subheader {
+  position: relative;
+  top: 0.5rem;
+  font-size: 0.75rem;
+  color: #db7a4e;
+}
+
+.footer__info {
+  position: relative;
+  top: 1rem;
+  font-size: 0.8rem;
+}
+
+.hours {
+  width: 30rem;
+  position: relative;
+  left: 6rem;
+}
+
+#hours__sub1 {
+  position: relative;
+  right: 2rem;
+}
+
+.hours__subheader {
+  margin: 0 2rem 0 2rem;
+}
+
+.hours__info {
+  margin: 0 0.5rem 0 0.75rem;
+}
+
+.hours__info1 {
+  position: relative;
+  right: 1.5rem;
+}
+
+.social {
+  position: relative;
+  left: 4rem;
+}
+
+.social__links > ul {
+  list-style: none;
+}
+
+.social__links > ul > li {
+  display: inline;
+  position: relative;
+  right: 1rem;
+}
+
+.social__links > ul > li > a > img {
+  transform: scale(0.4);
 }
